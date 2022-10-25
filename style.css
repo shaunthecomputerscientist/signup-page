@@ -1,0 +1,251 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato' , sans-serif;
+}
+.outer-box{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top left, rgb(38, 243, 239), rgb(151, 236, 255));
+}
+.inner-box{
+    width: 350px;
+    height: 400px;
+    margin: 0 auto;
+    
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+    padding: 50px 30px;
+    
+    /*background-color: rgb(247, 255, 254);*/
+    background: linear-gradient(to bottom right, rgba(244, 255, 255, 0),rgb(255, 255, 255));
+    border-radius: 30px;
+    box-shadow: 2px 2px 8px rgb(40, 114, 114);
+    z-index: 2;
+    backdrop-filter: blur(22px);
+
+}
+.signup-header h1{
+    font-size: 2.5rem;
+    padding: 0 0 10px 40px;
+    color: rgba(59, 62, 56, 0.755);
+    margin: 0px 35px ;
+    
+
+
+}
+
+.signup-header p{
+    font-size: 1.35rem;
+    color: rgb(255, 183, 0);
+    border: 1rem;
+    margin: 0 20px;
+    font-weight: bold;
+}
+.signup-header p :hover{
+    font-size: 1.2rem;
+    text-decoration: underline;
+    transition: ease-in 0.4s;
+    
+}
+.signup-header p span{
+    text-decoration: dashed;
+}
+.signup-body p{
+    margin: 8px 20px;
+    font-size: 1.2rem;
+}
+.signup-body p label{
+    display: block;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.signup-body p input{
+    width: 100%;
+    height: 25px;
+    padding: 0 10px;
+    border: 2px solid rgb(99, 135, 135);
+    border-radius: 1.5rem;
+    margin-top: 4px;
+}
+.signup-body p input[type="submit"]{
+    background-color: rgb(0, 255, 238);
+    border: none;
+    cursor: pointer;
+}
+.signup-body p input[type="submit"]:hover{
+    background-color: rgb(16, 224, 231);
+    
+}
+.signup-footer p{
+    color: rgb(137, 113, 234);
+    text-align: center;
+    text-decoration: underline;
+    
+}
+.signup-footer p a{
+    color: rgb(29, 223, 171);
+    font-weight: bold;
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    border: solid rgba(104, 102, 102, 0.118);
+    border-radius: 100px;
+    background: linear-gradient(to top left, rgb(100, 255, 245), rgb(155, 255, 253));
+    position: absolute;
+    box-shadow: 2px 1px 8px rgba(56, 59, 59, 0.715);
+}
+.c1{
+    top: 100px;
+    left: 100px;
+}
+.c2{
+    bottom: 100px;
+    right: 100px;
+}
+
+
+
+.wrapper div{
+    height: 60px;
+    width: 60px;
+    border: 2px solid white;
+    border-radius: 50%;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    animation: animate 4s linear infinite;
+}
+div .dot{
+    height: 10px;
+    width: 10px;
+    border-radius: 50px;
+    background: rgba(255,255,255,0.5);
+    position: absolute;
+    top: 10%;
+    right: 20%;
+
+
+
+}
+.wrapper div:nth-child(1){
+    top: 20%;
+    left: 20%;
+    animation:animate 8s linear infinite;
+}
+.wrapper div:nth-child(2){
+    top: 90%;
+    left: 90%;
+    animation:animate 5s linear infinite;
+}
+.wrapper div:nth-child(3){
+    top: 40%;
+    left: 40%;
+    animation:animate 7s linear infinite;
+}
+.wrapper div:nth-child(4){
+    top: 66%;
+    left: 30%;
+    animation:animate 7s linear infinite;
+}
+.wrapper div:nth-child(5){
+    top: 90%;
+    left: 10%;
+    animation:animate 9s linear infinite;
+}
+.wrapper div:nth-child(6){
+    top: 30%;
+    left: 60%;
+    animation:animate 5s linear infinite;
+}
+.wrapper div:nth-child(7){
+    top: 70%;
+    left: 20%;
+    animation:animate 8s linear infinite;
+}
+.wrapper div:nth-child(8){
+    top: 75%;
+    left: 60%;
+    animation:animate 10s linear infinite;
+}
+.wrapper div:nth-child(9){
+    top: 50%;
+    left: 10%;
+    animation:animate 6s linear infinite;
+}
+.wrapper div:nth-child(10){
+    top: 20%;
+    left: 80%;
+    animation:animate 7s linear infinite;
+}
+.wrapper div:nth-child(11){
+    top: 40%;
+    left: 90%;
+    animation:animate 8s linear infinite;
+}
+.wrapper div:nth-child(12){
+    top: 10%;
+    left: 70%;
+    animation:animate 9s linear infinite;
+}
+.wrapper div:nth-child(13){
+    top: 0%;
+    left: 90%;
+    animation:animate 6s linear infinite;
+}
+.wrapper div:nth-child(14){
+    top: 90%;
+    left: 60%;
+    animation:animate 3s linear infinite;
+}
+.wrapper div:nth-child(15){
+    top: 90%;
+    left: 80%;
+    animation:animate 7s linear infinite;
+}
+.wrapper div:nth-child(16){
+    top: 70%;
+    left: 70%;
+    animation:animate 4s linear infinite;
+}
+.wrapper div:nth-child(17){
+    top: 80%;
+    left: 90%;
+    animation:animate 2s linear infinite;
+}
+.wrapper div:nth-child(18){
+    top: 45%;
+    left: 75%;
+    animation:animate 6s linear infinite;
+}
+.wrapper div:nth-child(19){
+    top: 65%;
+    left: 5%;
+    animation:animate 9s linear infinite;
+}
+.wrapper div:nth-child(20){
+    top: 30%;
+    left: 5%;
+    animation:animate 10s linear infinite;
+}
+
+
+@keyframes animate{
+    0%{
+        transform: scale(0) translateY(0) rotate(70deg);
+    }
+    100%{
+        transform: scale(1.5) translateY(-100px) rotate(360deg);
+    }
+}
+
